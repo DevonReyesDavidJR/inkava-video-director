@@ -1,0 +1,13 @@
+Review the actual video @A.mp4 for concrete production faults. This is an INKAVA industrial film, which may show only hands, material, equipment, or a deliberate quiet composition. Do not require a face, picture-in-picture, spring motion, decorative graphics, or a minimum information density.
+
+Return the supplied JSON schema. Use these check IDs and cite timestamps as decimal seconds followed by s:
+C1: Real evidence and truthful process. Flag fabricated proof, misleading operation order, and unrelated footage represented as the actual process. Clearly illustrative imagery is allowed.
+C3: Composition through time. Check critical-action obstruction, accidental collisions, incorrect annotations, clipped text and unintended remnants. Intended panels and typography overlap are allowed.
+C4: Continuity. Check action direction, subject placement, framing, image changes and transitions for distracting or misleading discontinuity. A switch from person to equipment is not automatically a fault.
+C5: Readability and speech. Check visible subtitles for missing or inaccurate speech only when audio is actually available; report uncertainty otherwise. Check reading order, reading time, diacritics, and whether headline emphasis replaces required captions.
+C6: Brand treatment. Check coherent roles, restrained motion and visible consistency. Do not invent an exact font identity from pixels or require a reference creator's palette. A legitimate scanning operation or visible contact label is not prohibited merely because of the words it contains.
+C7: Editorial purpose. Flag unintentional dead tails, absent required visual information or unreadable rapid change. A meaningful hold, material close-up or intentional negative space is allowed. Do not waive a truncated ending automatically.
+
+Record evidence_gaps only where a factual visual claim lacks support. Do not require web screenshots for a process shown by authentic footage. For fingerprint, transcribe a few clearly visible text fragments and give observed duration. If there is no readable text, return an empty text list; do not invent text. Distinguish unavailable video/audio inspection from an inspected failure. Inspect only the supplied authorized media and do not start background subtasks.
+
+Inspect the media attachment directly where supported. If necessary, use only local sandboxed inspection of the supplied media copies. Keep the input unchanged, do not access other files or the network, and do not start background subtasks. If inspection remains unavailable, report that explicitly in JSON.

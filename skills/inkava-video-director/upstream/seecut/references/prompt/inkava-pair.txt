@@ -1,0 +1,7 @@
+Compare the actual videos @X.mp4 and @Y.mp4 as INKAVA creative edits. Evaluate process clarity, truthful evidence, accurate readable captions, expressive but coherent typography, motivated motion, continuity, framing, and deliberate pacing. Cite concrete timestamps in each clip.
+
+Do not reward a version merely for more graphics, faster cuts, bounce, louder sound, a face, paper texture, or a denser frame. The brand direction is contemporary, refined and restrained; optional emphasis must leave the actual operation legible. Quiet scenes and negative space can be correct. Do not judge likeness to a named creator or return a beauty percentage. Do not waive a truncated ending automatically.
+
+Use the supplied JSON schema. For each dimension use better=X, Y, or tie. The overall winner may be X, Y, or tie; choose tie when no defensible preference is visible. State the evidence and confidence without claiming model preference is objective proof. For fingerprint, transcribe visible text fragments separately for each clip and give each observed duration; do not invent text or events. If a media input cannot be inspected, state that rather than asserting a valid comparison. Inspect only the supplied authorized media and do not start background subtasks.
+
+Inspect the media attachment directly where supported. If necessary, use only local sandboxed inspection of the supplied media copies. Keep the input unchanged, do not access other files or the network, and do not start background subtasks. If inspection remains unavailable, report that explicitly in JSON.
