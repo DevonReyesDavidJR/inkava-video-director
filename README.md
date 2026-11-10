@@ -1,12 +1,16 @@
 # INKAVA Video Director
 
-Version **2.0.1** combines the **SeeCut execution foundation** with INKAVA's accumulated creative direction: expressive typography, complete speech subtitles, brand fonts and colors, B-roll, original illustration, motion, covers, and variation across a series.
+Version **2.1.0** combines the **SeeCut execution foundation** with INKAVA's accumulated creative direction: expressive typography, complete speech subtitles, brand fonts and colors, B-roll, original illustration, motion, covers, and variation across a series.
 
 The default workflow edits an existing CapCut draft while CapCut is closed, resolving footage and narration already imported into that project. The plugin keeps its existing `inkava-video-director` identity.
 
+## What's new in 2.1.0
+
+Adds `references/motion-graphics-remotion.md`: 4K 60 fps Remotion motion templates for CapCut, full-screen openers and endings, ElevenLabs v4 voice scripts, background-music prompts, retiming to the real voice, figure-honesty and NDA rules, and the macOS headless-render fix. SKILL.md gains principle 11 (render motion graphics as 4K H.264) and a reading-map entry. New package: `inkava-video-director-antigravity-skill.zip`.
+
 ## Install
 
-Download the appropriate archive from [dist/](dist/). For Codex's plugin ZIP importer, use [inkava-video-director-codex-plugin.zip](dist/inkava-video-director-codex-plugin.zip). Claude, Gemini, Antigravity and other agent options are described in [the installation guide](docs/INSTALL.md); archive names in that guide are located in `dist/` here.
+Download the appropriate archive from [dist/](dist/). For Codex's plugin ZIP importer, use [inkava-video-director-codex-plugin.zip](dist/inkava-video-director-codex-plugin.zip). Claude, Gemini, Antigravity (dedicated ZIP) and other agent options are described in [the installation guide](docs/INSTALL.md); archive names in that guide are located in `dist/` here.
 
 For a local skill installation from this checkout:
 

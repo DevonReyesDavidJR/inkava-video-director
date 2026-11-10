@@ -1,6 +1,6 @@
 # Install INKAVA Video Director
 
-Packaging revision: 2.0.1, updated 6 November 2026. Installation formats checked against official documentation on 5 November 2026.
+Packaging revision: 2.1.0, updated 10 November 2026. Installation formats checked against official documentation on 5 November 2026.
 
 Version 2 uses adapted SeeCut helpers as the execution foundation and the accumulated INKAVA guides as creative direction. Its upstream license and modification notices are included under `upstream/seecut`; the SeeCut software declares PolyForm Noncommercial 1.0.0, and installation does not provide commercial rights. Read `references/seecut-foundation.md` for the combined workflow and runtime setup. The existing plugin identity remains `inkava-video-director`.
 
@@ -10,6 +10,7 @@ Version 2 uses adapted SeeCut helpers as the execution foundation and the accumu
 |---|---|
 | `inkava-video-director-codex-plugin.zip` | The Codex plugin ZIP importer shown in the error screenshot |
 | `inkava-video-director-claude-skill.zip` | Claude's custom-skill upload, or extract for a local skill installation |
+| `inkava-video-director-antigravity-skill.zip` | Antigravity: extract into the skills folder (see section 4) |
 | `inkava-video-director-gemini-skill.zip` | Gemini Apps skill upload where that feature is available |
 | `inkava-video-director-multi-ai.zip` | Extract first: contains all packages, the portable skill folder, and a local installer |
 | `INKAVA-video-director-full.md` | Complete standalone instructions for systems that accept knowledge documents |
@@ -58,7 +59,7 @@ If your Gemini account still has Gems rather than the Skills interface, use the 
 
 ## 4. Antigravity
 
-Extract the kit, then run the installer with `--target antigravity`. The current documented global location is `~/.gemini/config/skills/inkava-video-director/`; workspace scope uses `.agents/skills/inkava-video-director/`. The standalone IDE also documents support for its legacy global skill directory. Keep the `references` folder beside `SKILL.md`, then inspect active skills in the agent's customization interface. [Antigravity skill locations](https://antigravity.google/docs/skills?app=antigravity-ide)
+Extract `inkava-video-director-antigravity-skill.zip` into the skills folder below (it holds one `inkava-video-director/` folder plus a short `INSTALL-ANTIGRAVITY.md`), or extract the kit and run the installer with `--target antigravity`. The current documented global location is `~/.gemini/config/skills/inkava-video-director/`; workspace scope uses `.agents/skills/inkava-video-director/`. The standalone IDE also documents support for its legacy global skill directory. Keep the `references` folder beside `SKILL.md`, then inspect active skills in the agent's customization interface. [Antigravity skill locations](https://antigravity.google/docs/skills?app=antigravity-ide)
 
 ## 5. Cursor and GitHub Copilot in VS Code
 
